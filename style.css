@@ -98,7 +98,7 @@
 }
 /* box 4 */
 .nav-signin,.nav-return{
-    padding: 5px 9px 10px;
+    padding: 12px 9px 10px;
 }
 span{
     font-size: 0.75rem;
@@ -113,7 +113,8 @@ span{
 }
 .nav-cart {
     font-size: 0.85rem;
-    font-weight: 700;  
+    font-weight: 700; 
+    padding: 12px 9px 10px; 
 }
 
 /* panel */
@@ -125,19 +126,25 @@ span{
     align-items: center;
     justify-content: space-evenly;
 }
-.panel-ops p {
-    display: inline;
+.panel-ops a {
     margin-left: 15px;
     padding: 10px 10px;
+    color: white;
+    text-decoration: none;
 }
 .panel-ops{
     width: 80%;
     font-size: 0.85rem;
 }
 .panel-deals{
+    padding: 10px 10px;
+}
+.panel-deals a{
     font-size: 0.9rem;
     font-weight: 700;
-    padding: 10px 10px;
+
+    color: white;
+    text-decoration: none;
 }
 .panel-all{
     padding: 10px 10px;
